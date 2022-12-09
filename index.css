@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.4;
+}
+.nav-item a:hover {
+  color: lightgreen;
+}
+.navbar-brand img {
+  height: 50px;
+  width: 100px;
+}
+.search {
+  height: 45px;
+  outline: none;
+  border: 2px solid rgb(20, 219, 20);
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+}
+.btn1 {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: rgb(20, 219, 20);
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.4s;
+}
+.btn1:hover {
+  background-color: green;
+}
+.bi-bag-check {
+  color: black;
+  font-size: 30px;
+  padding: 0 0 0 25px;
+  cursor: pointer;
+  transition: all 0.4;
+}
+.bi-bag-check:hover {
+  color: rgb(20, 219, 20);
+}
+.navbar-toggler {
+  font-size: 20px;
+  color: black;
+}
+.main {
+  background: url(images/m1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.main {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.main p {
+  margin-bottom: 0px;
+}
+.box-1 {
+  padding-top: 40px;
+}
+.main h1 {
+  font-size: 5rem;
+}
+.btn-1 {
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 50px;
+  width: 25%;
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.4s;
+}
+.btn-1:hover {
+  background-color: rgb(20, 219, 20);
+}
+.btn-2 {
+  height: 50px;
+  width: 25%;
+  border-radius: 50px;
+  border: 2px solid black;
+  outline: none;
+  transition: all 0.4s;
+}
+.btn-2:hover {
+  background-color: rgb(20, 219, 20);
+}
+.line {
+  height: 6px;
+  width: 30%;
+  background: rgb(20, 219, 20);
+  display: inline-block;
+}
+.about {
+  background-image: url(abut.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.about p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.line-about {
+  height: 6px;
+  width: 30%;
+  background: rgb(20, 219, 20);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.read-more {
+  background-color: rgb(20, 219, 20);
+  height: 50px;
+  width: 30%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  text-align: start;
+  margin-top: 30px;
+}
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+.welcome {
+  background-color: rgb(20, 219, 20);
+}
+.line2 {
+  width: 30%;
+  height: 6px;
+  background-color: white;
+  display: inline-block;
+}
+.welcome h1 {
+  font-size: 3rem;
+}
+.welcome p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.card {
+  cursor: pointer;
+}
+.welcome i {
+  font-size: 40px;
+  color: lightgreen;
+}
+.welcome h2 {
+  font-weight: lighter;
+  padding: 10px 0px;
+}
+.our-best-product .line3 {
+  height: 6px;
+  background-color: rgb(20, 219, 20);
+  width: 30%;
+  display: inline-block;
+}
+.our-best-product h3 {
+  font-size: 3rem;
+}
+.our-best-product p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.star {
+  text-align: end;
+  color: orange;
+}
+.products .card {
+  border-radius: 0;
+  cursor: pointer;
+}
+.products .card-body {
+  border: 1px dotted;
+}
+.cost {
+  padding-bottom: 15px;
+}
+.products h4 {
+  font-weight: 100;
+  text-align: center;
+}
+.products p {
+  text-align: center;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  font-size: small;
+  opacity: 0.7;
+}
+.products h4 {
+  margin: 0%;
+}
+.btn-3 {
+  padding: 8px 25px;
+  border-radius: 50px;
+  background-color: rgb(20, 219, 20);
+  border: none;
+  transition: all 0.5s;
+  color: white;
+  width: 100%;
+}
+
+.btn-3:hover {
+  background-color: green;
+}
+.read-more {
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 50px;
+  width: 25%;
+  border-radius: 50px;
+  outline: none;
+  text-align: center;
+}
+.read-more:hover {
+  background-color: green;
+}
+.discount {
+  background-color: rgb(20, 219, 20);
+  height: 250px;
+  color: white;
+}
+.discount h3 {
+  text-align: center;
+}
+.more-info {
+  padding: 8px 25px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.more-offer {
+  text-align: center;
+  padding: 4px 25px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  transition: all 0.5s;
+  color: black;
+}
+.store h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.store p {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 20px;
+}
+.line4 {
+  height: 6px;
+  background-color: rgb(20, 219, 20);
+  width: 30%;
+  display: inline-block;
+}
+.store i {
+  font-size: 45px;
+}
+.store .card {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.store .card :hover {
+  background-color: rgb(20, 219, 20);
+  color: white;
+}
+.seller i {
+  color: orange;
+}
+.seller h1 {
+  padding-top: 20%;
+  padding-bottom: 5%;
+}
+.contact {
+  background-image: url(images/contact.jpg);
+  background-size: cover;
+  width: 100%;
+  color: white;
+  height: auto;
+  padding-bottom: 40px;
+}
+.line5 {
+  background-color: white;
+  height: 6px;
+  width: 30%;
+}
+.contact p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+input {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.contact i {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.send {
+  padding: 8px 24px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+}
+.copyright {
+  background-color: orange;
+  padding-top: 20px;
+}
+.copyright i {
+  height: 40px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.copyright i:hover {
+  background-color: rgb(20, 219, 20);
+}
+/* ======media query========= */
+@media (max-width: 1200px) {
+  .main p,
+  .about p,
+  .welcome p,
+  .our-best-product p,
+  .store p,
+  .contact p {
+    font-size: 16px;
+  }
+  .contact h5 {
+    font-size: 16px;
+  }
+  /* =====having====issue */
+  .about {
+    background-image: none;
+    margin-top: -65px;
+    margin-bottom: -65px;
+  }
+  .about .col-lg-5 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 468px) {
+  .btn-1,
+  .btn-2,
+  .read-more {
+    height: 34px;
+    width: 30%;
+    font-size: small;
+  }
+}
+@media (max-width: 768px) {
+  .contact input {
+    margin-top: 10px;
+  }
+}
